@@ -6,15 +6,6 @@ z-index: 1000; /* Ensure navbar is above other content */
 opacity: 0.8;
 }
 
-.h1 {
-  position: relative;
-  z-index: 1000;
-  top: 400px;
-  color: white;
-  text-shadow:2px 2px 4px black ;
-  margin-left: 32px; /* Adjust as needed */
-}
-
 
 
 
@@ -110,14 +101,6 @@ html
   background-color: #283618;
   padding: 16px;
   margin-bottom: 32px;
-}
-
-#movingElement {
-  position: absolute;
-  top: 0; 
-  left: 50%; 
-  transform: translateX(-10%);
-  transition: ease;
 }
 
 
