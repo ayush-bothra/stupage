@@ -1,0 +1,92 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>sample student page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+  <div class=" navigation container">
+    <a class="navbar-brand" href="#"><img class="navbar-image" src="https://imgs.search.brave.com/a5K_qZDfeq90LbVR8u2prcx8YCwUCHG1Dz8c9PR2vO8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzExL0NvQV9vZl9S/dXNzaWFuX0VtcGly/ZV8oMTcyMSkuc3Zn.svg" alt="Your Brand"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Image -->
+<div class="container-fluid pb-4">
+  <div class="h1" style="font-size: 50px;">Student page for academia</div>
+  <img style="width: 100%;" src="https://res.cloudinary.com/dbyioi2qq/image/upload/v1714294764/crfiacqmilhqsjvwgisa.jpg" alt="Full Width Image">
+</div>
+
+<!-- Services -->
+<div class="Student container-fluid pb-4 row" id="Services">
+  <div class="col-md-3">
+    <img src="https://imgs.search.brave.com/4__SBh-wLK00aBz2Xp4QZLyujkZbMnM4Z1fN7aK8TUQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQw/Mzg5NzI0MS9waG90/by91bml2ZXJzaXR5/LXN0dWRlbnRzLXN0/dWR5aW5nLXRvZ2V0/aGVyLWluLXRoZS1s/aWJyYXJ5LmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1QejJp/ckxrZ3pKNlNoWmNl/RkZwNG9aN2kyNDJT/WEJTeUFVSUJOekVh/TU5zPQ" alt="Study Image" class="img-fluid ">
+  </div>
+  <div class="student-info col-md-9">
+    <div class="h2">Streamline studies with our tools</div>
+    <div>Our tools help with efficient task management and improve on academics.</div>
+    <button class="tool-button" id="button">Try our tools</button>
+  </div>
+</div>
+
+<!-- About -->
+<div class="about container-fluid" id="About">
+  <div>
+    <h2 class="about-page">Welcome to our student platform! We're your go-to destination for academic resources.</h2>
+  <h6 class="about-page">Empowering students worldwide, our hub offers resources, tips, and community support for academic success. Navigate university life with ease and excel in your educational journey.</h6>
+  </div>
+  <div class="progress-image">
+    <img src="https://imgs.search.brave.com/uvfS3B7TengmHplQ9t6XsDIkS0OgdkDugieqy-OpkdI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODk2/MTk1NTYyL3Bob3Rv/L3BhcGVyLWFuZC1k/YXRhLWNvbXBvc2lu/Zy1saW5lLWdyYXBo/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1ZVGtQWTdTSmNu/Qm1OMjRTc0xNUWZU/NFdRU2pVSDc1eDBt/TElsOGZuY1RRPQ"class="image-fluid w-50" alt="">
+  </div>
+</div>
+
+<div class="contacts container-fluid" id="Contacts">
+  <div class="Student-hub">
+    <h1>Student Hub</h1>
+  </div>
+  <div class="icons">
+    <i class="fab fa-twitter fa-3x ttr-icon"></i>
+    <i class="fab fa-instagram fa-3x inst-icon"></i>
+    <i class="fab fa-google fa-3x ggl-icon"></i>
+  </div>
+</div>
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script_sp.js"></script>
+  </body>
+</html>
